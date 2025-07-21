@@ -68,6 +68,7 @@ Python (pandas, matplotlib, seaborn, scipy, statsmodels)
 Jupyter Notebook
 
 📌 Conclusion
+
 This project demonstrates a data-driven approach to supporting NYC taxi drivers in maximizing their earnings.
 Using real-world data, we applied statistical rigor and visual storytelling to uncover actionable business insights — like which payment type and time of day are most profitable.
 
