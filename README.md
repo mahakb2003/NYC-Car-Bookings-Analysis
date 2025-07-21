@@ -66,7 +66,6 @@ Features like tpep_pickup_datetime were cleaned and used to create hourly, daily
 🛠️ Tools Used
 Python (pandas, matplotlib, seaborn, scipy, statsmodels)
 Jupyter Notebook
-Power BI (initial exploration phase – removed due to size)
 
 📌 Conclusion
 This project demonstrates a data-driven approach to supporting NYC taxi drivers in maximizing their earnings.
