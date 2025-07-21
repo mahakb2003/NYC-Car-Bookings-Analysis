@@ -24,6 +24,7 @@ Specifically, we ask:
 ✅ Time Series Analysis (Daily Fare Trends)
 ✅ Hourly Fare Patterns by Payment Type
 
+
 📊 Visual Insights
 🔹 Linear Regression
 We modeled the relationship between trip duration and fare amount.
@@ -33,11 +34,11 @@ Fare = m × Duration + c
 Observed that longer trips generally increase fare, but variation exists.
 
 🔹 Hypothesis Testing (A/B)
-Used t-test to compare Card vs Cash fare distributions.
-
-Visualized with QQ plots and stacked bar graphs.
+1.Used t-test to compare Card vs Cash fare distributions.
+2.Visualized with QQ plots and stacked bar graphs.
 
 Result: Statistically significant difference found in average fare between payment types.
+
 
 🔹 Time Series (2020–2021)
 Created daily average fare trend plots.
@@ -45,13 +46,13 @@ Conducted hourly fare analysis:
 Found morning and evening peaks.
 Card payments tend to yield higher average fares at almost every hour.
 
+
 📅 Data Timeframe
 The dataset spans from January 2020 to early 2021.
 Features like tpep_pickup_datetime were cleaned and used to create hourly, daily, and monthly trends.
 
-├── nyc_taxi_analysis.ipynb       # Main analysis notebook
+├── nyc_taxi_analysis.ipynb       # Main ana lysis notebook
 ├── yellow_tripdata_2020-01.csv   # Sample raw data
-├── README.md                     # Project overview
 ├── outputs/
 │   ├── regression_plot.png
 │   ├── time_series_fare.png
